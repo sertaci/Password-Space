@@ -1,2 +1,2 @@
-# Password-Space
-A safe storage for you precious passwords!
+# PasswordSpace
+ A safe storage for you precious passwords !

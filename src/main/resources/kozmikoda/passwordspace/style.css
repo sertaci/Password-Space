@@ -1,0 +1,50 @@
+.titlebar {
+    -fx-background-radius: 20 20 0 0;
+    -fx-background-color: #0f88e2;
+}
+
+.signlink {
+    -fx-border-color: transparent;
+    -fx-padding: 4 0 4 0;
+}
+
+.forgetPasswdNamePane {
+    -fx-background-color: rgba(0, 100, 100, 0)
+}
+
+.forgetPasswdNameField {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+.backButton {
+     -fx-graphic: url(back.png);
+}
+
+.closeButton {
+    -fx-graphic: url(closeButton.png);
+}
+
+.minimizeButton {
+    -fx-graphic: url(minimizeButton.png);
+}
+
+.password {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+.servicesPasswordShower {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+.servicesInfo {
+    -fx-text-fill: #FFFFFF;
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage fx:id="window" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kozmikoda.passwordspace.GUIController">
+   <scene>
+      <Scene>
+         <Pane prefHeight="588.0" prefWidth="881.0">
+            <children>
+               <ImageView fitHeight="591.0" fitWidth="874.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@appInside.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="101.0" fitWidth="282.0" layoutX="437.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@passwordSpace.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="26.0" layoutY="13.0" text="SERVICES" textFill="WHITE">
+                  <font>
+                     <Font name="Agency FB" size="44.0" />
+                  </font>
+               </Label>
+               <VBox fx:id="serviceVbox" alignment="CENTER" layoutX="12.0" layoutY="88.0" prefHeight="472.0" prefWidth="328.0">
+                  <children>
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="BURA BOS" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                     <JFXButton prefHeight="49.0" prefWidth="314.0" text="NULL" textFill="WHITE" />
+                  </children>
+               </VBox>
+               <JFXButton layoutX="205.0" layoutY="26.0" opacity="0.0" prefHeight="49.0" prefWidth="36.0" textFill="WHITE" />
+               <Button layoutX="466.0" layoutY="138.0" mnemonicParsing="false" onAction="#fooAction" text="Button" />
+               <Button layoutX="683.0" layoutY="269.0" mnemonicParsing="false" onAction="#changeToScene1" text="Button" />
+            </children>
+         </Pane>
+      </Scene>
+   </scene>
+</Stage>

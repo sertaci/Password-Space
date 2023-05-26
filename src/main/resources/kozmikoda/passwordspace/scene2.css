@@ -1,0 +1,12 @@
+.mainBackground {
+    -fx-background-color: #232323;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+
+
+}
+
+.login {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #FFFFFF;
+}
